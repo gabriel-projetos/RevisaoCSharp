@@ -1,0 +1,28 @@
+Propriedades tem valores padrões de inicialização
+
+        //para valores o valor default é 0
+        //string é null
+public double saldo { get; set; } = 100;
+
+***********Comparações****************
+Comparação de tipo por referencia, tipos em lugares diferentes na memoria, tipos complexos são por referencia. object == object
+Comparação de tipo de valor, guarda valores 1 == 1
+Como os dois objetos apontam para o mesmo lugar, se um altera reflete no outro
+
+
+O namespace faz parte do nome completo de uma classe.
+Os nomes de namespace não devem conter traços (-) ou iniciar com números.
+
+value só funciona dentro do set
+
+Se expandir algum dos acessor das propriedades é obrigado a expandir os dois get e set
+
+vantagem get e set:A implementação interna pode ser modificada sem afetar nenhum código fora da própria classe.
+
+static pertence a classe não aos objetos, por isso chamamos pelo nome da classe.metodoStatico
+
+Construtores são utilizados para inicializar os atributos.
+
+
+é uma convenção se eu tenho um metodo que eu quero deixar claro que terá um processamento, como GetBonificacao, usamos uma função envez de uma prop
+Quando é só uma prop temos a impressão que será rápido
